@@ -1,0 +1,77 @@
+body{
+	overflow-x:hidden;
+	font-family:"Press Start 2P", "Roboto", sans-serif;
+	color:white;
+	background-color:teal;
+	padding:0;
+	margin:0;
+	width:100vw;
+	height:auto;
+}
+
+header{
+	grid-area:header;
+	text-align:center;
+	line-height:50px;
+}
+
+main{
+}
+
+.inputs{
+	text-align:center;
+	line-height:100px;
+	position:absolute;
+	right:0;
+	left:0;
+}
+
+.results{
+	position:absolute;
+	top:var(--resultTop);
+	display:grid;
+	grid-template-rows:1fr;
+	grid-template-columns:1fr 1fr;
+	grid-template-areas:
+	"poly po";
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.poly{
+	grid-area:poly;
+}
+
+.po{
+	grid-area:po;
+	text-align: left !important;
+	padding-right:20px;
+}
+
+.poWords{
+	line-height:30px;
+}
+
+.spanRow{
+	padding:5px;
+}
+
+.accent{
+	text-shadow:2px 2px 2px red;
+}
+
+.cpulseAccent{
+	text-shadow:2px 2px 2px red;
+}
+
+.specialAccent{
+	text-shadow:2px 2px 2px blue, 3px 3px red;
+}
+
+.pulseAccent{
+	text-shadow:2px 2px 2px blue;
+}
+
+.variable{
+	text-shadow:2px 2px 2px red;
+}
